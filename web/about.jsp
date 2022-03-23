@@ -10,26 +10,19 @@
 <body>
 <div style="color: white; text-align: center; font-size: 30px;">About <i class="fa fa-address-book"></i></div>
 <div style="background-color: white; padding:35px; font-size: 30px;">
-BTech Days
+Niki's Groceries
 <br>
 Hey everyone!!
 <br>
-I make free programming tutorials for beginners.
-& PROJECT videos with source code.
-That include Java for beginners,c# (Dot net tutorial), JFrame,JDBC,Jsp,etc
+Our's is a small grocery shop in Rajkot city
 <br>
-We make videos of :-
-DBMS
-COMPUTER NETWORKING 
-BPM
-OS, etc
-So kindly subscribe our channel.
+Please support us and go vocal for local
 <br>
-Contact us at :- btechdays.care@gmail.com
+Contact us at :- nikis_groceries@gmail.com
 <br>
 or
 <br>
-contact us at instagram :- btechdays
+contact us at :- +91-8141661973
 </div>
 
 </body>
