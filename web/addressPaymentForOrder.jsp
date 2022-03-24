@@ -103,9 +103,12 @@ response.setDateHeader("Expires",-1);
 <div class="right-div">
 <h3>Enter country</h3>
 <input class="input-style" type="text" name="country" value="<%=rs2.getString(10)%>" placeholder="Enter country" required>
+
 </div>
-<h3 style="color: red">*If there is no address its mean that you did not set you address!</h3>
-<h3 style="color: red">*This address will also updated to your profile</h3>
+
+<h3 style="color: maroon">*We do not deliver outside Rajkot,Gujarat <br> your order will be canceled if out of Rajkot!</h3>
+
+
 <hr style="width: 100%">
 <div class="left-div">
 <h3>Select way of Payment</h3>
@@ -118,21 +121,22 @@ response.setDateHeader("Expires",-1);
 <div class="right-div">
 <h3>Pay online on this nikisgroceries@pay.com</h3>
 <input class="input-style" type="text" name="transactionId" placeholder="Enter transaction Id">
-<h3 style="color: red">*If you select online Payment then enter you transaction ID here otherwise leave this blank</h3>
+<h3 style="color: maroon">*If you select online Payment then enter you transaction ID here otherwise leave this blank</h3>
 </div>
 <hr style="width: 100%">
 
 <div class="left-div">
 <h3>Mobile Number</h3>
 <input class="input-style" type="number" name="mobileNumber" value="<%=rs2.getString(3)%>" placeholder="Enter mobile number" required>
-<h3 style="color: red">*This mobile number will also updated to your profile</h3>
+<h3 style="color: maroon">*This mobile number will also updated to your profile</h3>
 </div>
 <div class="right-div">
-<h3 style="color: red">*If you enter wrong transaction id then your order will we can cancel!</h3>
+<h3 style="color: maroon">*If you enter wrong transaction id then your order will we can cancel!</h3>
+
 <button class="button" type="submit"> Proceed to generate bill and save <i class='far fa-arrow-alt-circle-right'></i></button>
-<h3 style="color: red">*Fill form correctly</h3>
 </div>
 </form>
+
 <%  
      }   
     }
