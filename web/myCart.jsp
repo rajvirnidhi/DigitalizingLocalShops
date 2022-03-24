@@ -8,6 +8,9 @@
 <meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1">
 <title>My Cart</title>
 <style>
+body  {
+  background-color: #2cb88e;
+}
 h3
 {
 	color: yellow;

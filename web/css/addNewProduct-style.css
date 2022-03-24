@@ -1,7 +1,7 @@
     body {
   font-family: "Open Sans", sans-serif;
   line-height: 1.25;
-  background-color: #0080FF;
+  background-color: #2cb88e;
 }
 
 a
@@ -137,7 +137,7 @@ input[type=text]:focus, textarea:focus,button:focus{
 }
 
 .button {
-  background-color: aqua;
+  background-color: aquamarine;
   border: none;
   color: black;
   padding: 12px 20px;

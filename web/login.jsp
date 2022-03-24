@@ -5,6 +5,7 @@
 <title>Login</title>
 </head>
 <body>
+    <h1 style="text-align: center; color: white">Login</h1>
 <div id='container'>
   <div class='signup'>
       <!--creating a form to take user input and sending it to loginAction.jsp page-->

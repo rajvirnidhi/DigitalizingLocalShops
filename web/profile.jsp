@@ -8,8 +8,13 @@
 <link rel="stylesheet" href="css/changeDetails.css">
 <title>Profile</title>
 <style>
+
+    body  {
+  background-color: #2cb88e;
+}
 hr
-{width:70%;}</style>
+{width:70%;}
+</style>
 </head>
 <body>
 <%

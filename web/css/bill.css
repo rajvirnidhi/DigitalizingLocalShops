@@ -36,7 +36,7 @@ input[type=text]:focus, textarea:focus,button:focus{
 }
 
 .button {
-  background-color: aqua;
+  background-color: aquamarine;
   border: none;
   color: black;
   padding: 12px 20px;

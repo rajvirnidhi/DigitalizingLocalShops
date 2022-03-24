@@ -1,6 +1,7 @@
 <%@page import= "project.ConnectionProvider"%>
 <%@page import= "java.sql.*"%>
 <%
+    // get user entered data
     String email = request.getParameter("email");
     String password = request.getParameter("password");
     //check if the user is admin then allow admin to access the admin home page
@@ -10,6 +11,7 @@
         session.setAttribute("email",email);
         response.sendRedirect("admin/adminHome.jsp");
     }
+    //if the user is not admin then connect to users database
     else
     {
         int z=0;

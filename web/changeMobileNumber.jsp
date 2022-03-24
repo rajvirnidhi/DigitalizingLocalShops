@@ -7,6 +7,11 @@
 <link rel="stylesheet" href="css/changeDetails.css">
 <script src='https://kit.fontawesome.com/a076d05399.js'></script>
 <title>change mobile number</title>
+<style>
+    body  {
+  background-color: #2cb88e;
+}
+</style>
 </head>
 <body>
 <%

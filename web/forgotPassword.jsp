@@ -3,6 +3,11 @@
 <head>
 <link rel="stylesheet" href="css/signup-style.css">
 <title>ForgotPassword</title>
+<style>
+    body  {
+  background-color: #2cb88e;
+}
+</style>
 </head>
 <body>
 <div id='container'>

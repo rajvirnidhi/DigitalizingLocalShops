@@ -1,5 +1,5 @@
 body {
-  background-color: #0080FF;
+  background-color: #2cb88e;
   font: 1em Helvetica;
 }
 
@@ -47,6 +47,26 @@ body {
   border-radius: 5px 0 0 5px;
 }
 
+a:link {
+  color: green;
+  background-color: transparent;
+  text-decoration: none;
+}
+a:visited {
+  color: green;
+  background-color: transparent;
+  text-decoration: none;
+}
+a:hover {
+  color: red;
+  background-color: transparent;
+  text-decoration: underline;
+}
+a:active {
+  color: yellow;
+  background-color: transparent;
+  text-decoration: underline;
+}
 
 [type=text],[type=email],[type=number],[type=password],select,option {
   display: block;
@@ -65,7 +85,7 @@ body {
   margin-top: 25px;
   width: 80%;
   border: 0;
-  background-color: #0080FF;
+  background-color: #47ad66;
   border-radius: 5px;
   height: 50px;
   color: white;

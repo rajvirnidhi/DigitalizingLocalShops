@@ -7,10 +7,21 @@
 <link rel="stylesheet" href="css/addressPaymentForOrder-style.css">
 <script src='https://kit.fontawesome.com/a076d05399.js'></script>
 <title>Home</title>
-<script>
-    if(window.history.forward(1)!=null)
-        window.history.forward(1);
+<style>
+    body  {
+  background-color: #2cb88e;
+}
+</style>
+<script type="text/javascript"> 
+    if(window.history.forward() != null)
+    { window.history.forward(); } 
 </script>
+<%
+response.setHeader("Pragma","no-cache");
+response.setHeader("Cache-Control","no-store");
+response.setHeader("Expires","0");
+response.setDateHeader("Expires",-1);
+%>
 </head>
 <body>
 <br>

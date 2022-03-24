@@ -6,6 +6,9 @@
 <head>
 <title>Home</title>
 <style>
+body  {
+  background-color: #2cb88e;
+}
 h3
 {
 	color: yellow;

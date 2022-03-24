@@ -23,7 +23,7 @@
             total=Math.round(total*Math.pow(10,2))/Math.pow(10,2);
         }
         
-        ResultSet rs=st.executeQuery("select * from users inner join cart where cart.email='"+email+"' and cart.status='bill'");
+        ResultSet rs=st.executeQuery("select * from users inner join cart where cart.email='"+email+"' and users.email='"+email+"' and cart.status='bill'");
         while(rs.next())
         {
 %>

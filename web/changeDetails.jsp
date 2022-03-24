@@ -8,6 +8,11 @@
 <link rel="stylesheet" href="css/changeDetails.css">
 <title>Change Details</title>
 <style>
+
+    body  {
+  background-color: #2cb88e;
+}
+
 hr
 {width:70%;}</style>
 </head>
