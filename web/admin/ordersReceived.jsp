@@ -66,7 +66,6 @@
         while(rs.next())
         {
 %>
-%>
           
           <tr>
           <td><%=rs.getString(10)%></td>

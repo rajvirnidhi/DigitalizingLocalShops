@@ -20,7 +20,7 @@
             <a href="cancelOrders.jsp">Canceled Orders <i class='fas fa-window-close'></i></a>
             <a href="deliveredOrders.jsp">Delivered Orders <i class='fas fa-dolly'></i></a>
             <a href="placeOrder.jsp">Place Customer Orders <i class='fa fa-address-book'></i></a>
-            <a href="">Reports <i class='fa fa-bar-chart'></i></a>
+            <a href="report.jsp">Reports <i class='fa fa-bar-chart'></i></a>
             <a href="../logout.jsp">Logout <i class='fas fa-share-square'></i></a>
           </div>
            <br>
