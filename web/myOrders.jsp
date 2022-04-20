@@ -11,10 +11,38 @@
 body  {
   background-color: #2cb88e;
 }
+h3
+{
+	color: yellow;
+	text-align: center;
+}
 </style>
 </head>
 <body>
 <div style="color: white; text-align: center; font-size: 30px;">My Orders <i class='fab fa-elementor'></i></div>
+<%
+    String msg=request.getParameter("msg");
+    if("added".equals(msg))
+    {
+%>
+<h3 class="alert">Product added successfully!</h3>
+<%
+    }
+
+    if("exist".equals(msg))
+    {
+%>
+<h3 class="alert">Product already exist in you cart! Quantity  increased!</h3>
+<%
+    }
+
+    if("invalid".equals(msg))
+    {
+%>
+<h3 class="alert">Something went wrong! Try again!</h3>
+<%
+    }
+%>
 <table>
         <thead>
           <tr>
@@ -28,6 +56,7 @@ body  {
              <th scope="col">Expected Delivery Date</th>
              <th scope="col">Payment Method</th>
               <th scope="col">Status</th>
+              <th scope="col">Place this order again</th>
               
           </tr>
         </thead>
@@ -55,6 +84,7 @@ body  {
               <td><%=rs.getString(12)%></td>
                <td><%=rs.getString(13)%></td>
                <td><%=rs.getString(15)%></td>
+               <td><a href="replaceOrderAction.jsp?id=<%=rs.getString(2)%> & qty=<%=rs.getString(3)%>">Place again<i class='fas fa-cart-plus'></i></a></td>
             </tr>
 <%
       }

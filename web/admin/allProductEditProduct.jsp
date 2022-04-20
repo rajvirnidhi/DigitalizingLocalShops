@@ -40,7 +40,7 @@ h3
             <th scope="col">Name</th>
             <th scope="col">Category</th>
             <th scope="col"><i class="fa fa-inr"></i> Price</th>
-            <th>Status</th>
+            <th>Available</th>
             <th scope="col">Edit <i class='fas fa-pen-fancy'></i></th>
           </tr>
         </thead>

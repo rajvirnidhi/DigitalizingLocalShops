@@ -54,7 +54,17 @@
 
 <div class="right-div">
 <h3>Enter Category</h3>
-<input class="input-style" type="text" name="category" placeholder="Enter category" required> 
+<select class="input-style" name="category">
+    <option value="Biscuits & Cookies">Biscuits & Cookies</option>
+    <option value="Breakfast Cereals">Breakfast Cereals</option>
+    <option value="Chocolates & Candies">Chocolates & Candies</option>
+    <option value="Frozen Veggies & Snacks">Frozen Veggies & Snacks</option>
+    <option value="Noodle, Pasta, Vermicelli">Noodle, Pasta, Vermicelli</option>
+    <option value="Pickles & Chutney">Pickles & Chutney</option>
+    <option value="Ready To Cook & Eat">Ready To Cook & Eat</option>
+    <option value="Snacks & Namkeen">Snacks & Namkeen</option>
+    <option value="Spreads, Sauces, Ketchup">Spreads, Sauces, Ketchup</option>
+</select>
 <hr>
 </div>
 
@@ -65,7 +75,7 @@
 </div>
 
 <div class="right-div">
-<h3>Active</h3>
+<h3>Available</h3>
 <select class="input-style" name="active">
     <option value="Yes">Yes</option>
     <option value="No">No</option>

@@ -33,7 +33,7 @@
     }
     catch(Exception e)
     {
-        System.out.println("Exception: "+e);
+        System.out.println("Signup Exception: "+e);
         response.sendRedirect("signup.jsp?msg=invalid");
     }
 %>
